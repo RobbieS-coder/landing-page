@@ -80,22 +80,46 @@ h2 {
 	background-color: white;
 	display: flex;
 	flex-direction: column;
-	margin-bottom: 60px;
+	padding-bottom: 60px;
 }
 
 .diagrams {
 	display: flex;
 	justify-content: center;
-	gap: 30px;
+	gap: 20px;
 }
 
 .diagram {
 	display: flex;
 	flex-direction: column;
-	max-width: 150px;
+	align-items: center;
+	max-width: 200px;
 }
 
 .diagram img {
 	border: 3px solid #3882f6;
 	border-radius: 5px;
+}
+
+.diagram p {
+	text-align: center;
+}
+
+.quote-section {
+	background-color: #e5e7eb;
+	padding: 70px 250px;
+}
+
+.quote-words {
+	font-size: 36px;
+	font-style: italic;
+	font-weight: lighter;
+	color: #1f2937;
+	margin: 0;
+}
+
+.quote-person {
+	font-weight: bold;
+	font-size: 16px;
+	text-align: right;
 }
